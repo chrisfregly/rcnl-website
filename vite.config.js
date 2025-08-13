@@ -10,4 +10,5 @@ export default defineConfig({
     tailwindcss(),
     svgr(),
   ],
+  base: "/rcnl-website"
 })
