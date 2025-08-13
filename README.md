@@ -20,8 +20,13 @@ Any changes made to the code on your local machine will automatically update the
 
 ### Remote Deployment
 
-Once you have tested your changes, git commit and push them to the `main` branch. 
-A pipeline will kick off automatically which will deploy your changes live to the [rcnl.rice.edu](rcnl.rice.edu) domain.
+Once you have tested your changes, git commit and push them to the `main` branch. Then from your local machine run the following command:
+
+```bash
+npm run deploy
+```
+
+This will deploy your changes live to the [rcnl.rice.edu](rcnl.rice.edu) domain.
 
 ## Tooling
 
