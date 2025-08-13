@@ -17,7 +17,7 @@ function ParticleEffect({className}) {
   const options = useMemo(
     () => ({
       fullScreen: {
-        enable: false,
+        enable: true,
       },
       background: {
         color: {
