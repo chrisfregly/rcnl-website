@@ -1,0 +1,33 @@
+import { SiAcademia } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { TbMailFilled } from "react-icons/tb";
+import { Link } from "react-router-dom";
+import Logo from '../../assets/branding/rcnl-logo.svg?react';
+
+function Footer() {
+
+  return (
+    <>
+      <div className='mt-24 bg-white w-full px-8 py-8 flex flex-col justify-center items-center'>
+        <div className='max-w-[72em] w-full flex items-center justify-between'>
+          <Link to={"/"}>
+            <Logo className="h-6 sm:h-7 md:h-8 fill-slate-900" />
+          </Link>
+          <div className="flex gap-2 items-center">
+            <a href="https://rice.academia.edu/BJFregly" target="_blank" rel="noreferrer">
+              <SiAcademia className="text-lg fill-slate-700"/>
+            </a>
+            <a href="mailto:fregly@rice.edu">
+              <TbMailFilled className="text-2xl fill-slate-700" />
+            </a>
+            <a href="https://github.com/rcnl-org" target="_blank" rel="noreferrer">
+              <FaGithub className="text-xl fill-slate-700" />
+            </a>
+            </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Footer;
