@@ -1,6 +1,6 @@
 {
   "name": "rcnl-website",
-  "homepage": "https://freglyc.github.io/rcnl-website/",
+  "homepage": "rcnl.chrisfregly.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
