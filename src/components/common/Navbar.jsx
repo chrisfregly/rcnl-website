@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from '../../assets/branding/rcnl-logo.svg?react';
+import Logo from '../../assets/rcnl-logo.svg?react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { Link, useLocation } from 'react-router-dom';
@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='fixed bg-white w-full px-8 py-4 flex flex-col justify-center items-center'>
+      <nav className='fixed bg-white w-full px-8 py-4 flex flex-col justify-center items-center border-b-2 border-slate-200 z-50'>
         <div className='max-w-[72em] w-full flex items-center justify-between'>
           <Link to={"/"}>
             <Logo className="h-6 sm:h-7 md:h-8 fill-blue" />

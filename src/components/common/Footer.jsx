@@ -2,13 +2,13 @@ import { SiAcademia } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { TbMailFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
-import Logo from '../../assets/branding/rcnl-logo.svg?react';
+import Logo from '../../assets/rcnl-logo.svg?react';
 
 function Footer() {
 
   return (
     <>
-      <div className='mt-24 bg-white w-full px-8 py-8 flex flex-col justify-center items-center'>
+      <div className='mt-16 bg-white w-full px-8 py-8 flex flex-col justify-center items-center border-t-2 border-slate-200'>
         <div className='max-w-[72em] w-full flex items-center justify-between'>
           <Link to={"/"}>
             <Logo className="h-6 sm:h-7 md:h-8 fill-slate-900" />

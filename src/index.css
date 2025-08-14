@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import "tailwindcss";
+
+@source inline("hover:after:h-1.5 after:h-1.5 hover:after:h-5 after:h-5");
+
 @theme {
-  --color-blue: #0f53ea
+  --color-blue: #0f53ea;
+  --color-light-blue: #afc2f4;
 }
 
 html {

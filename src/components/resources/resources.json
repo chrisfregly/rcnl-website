@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Lab Handbook",
+        "description": "RCNL expectations and policies",
+        "file": "rcnl_handbook.pdf"
+   },
+   {
+        "name": "Presentation Suggestions",
+        "description": "Preparation and delivery tips",
+        "file": "presentation_suggestions.pdf"
+    },
+    {
+        "name": "Teaching Philosophy",
+        "description": "B.J. Fregly's teaching method",
+        "file": "teaching_philosophy.pdf"
+    },
+    {
+        "name": "Writing Tips",
+        "description": "Journal of Biomechanical Engineering",
+        "file": "jbme_writing_tips.pdf"
+    },
+    {
+        "name": "Writing Tips",
+        "description": "Journal of Biomechanics",
+        "file": "job_writing_tips.pdf"
+    },
+    {
+        "name": "Writing Tips",
+        "description": "Journal of Orthopaedic Research",
+        "file": "jor_writing_tips.pdf"
+    }
+]

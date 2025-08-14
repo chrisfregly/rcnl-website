@@ -1,0 +1,195 @@
+[
+   {
+        "name": "B.J. Fregly",
+        "role": "Lab Director",
+        "titles": ["PhD"],
+        "description": "Professor and CPRIT Scholar in Cancer Research",
+        "website": "https://rcnl.rice.edu",
+        "email": "fregly@rice.edu",
+        "image": "bj_fregly.jpg"
+    },
+    {
+        "name": "Ed Akin",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor, Dept. of Mechanical Engineering, Rice University",
+        "website": "https://profiles.rice.edu/faculty/john-e-akin",
+        "image": "ed_akin.jpg"
+    },
+    {
+        "name": "Matthew Brake",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Assistant Professor, Dept. of Mechanical Engineering, Rice University",
+        "website": "https://brake.rice.edu",
+        "image": "matthew_brake.jpg"
+    },
+    {
+        "name": "James Chang",
+        "role": "Faculty Collaborator",
+        "titles": ["PT", "PhD"],
+        "description": "Assistant Professor, Dept. of Physical Medicine and Rehab, University of Texas Health Science Center at Houston",
+        "website": "https://med.uth.edu/pmr/2022/10/28/shuo-hsiu-james-chang-pt-phd",
+        "image": "james_chang.jpg"
+    },
+    {
+        "name": "Gerard Francisco",
+        "role": "Faculty Collaborator",
+        "titles": ["MD"],
+        "description": "Professor and Chair, Dept. of Physical Medicine and Rehab, University of Texas Health Science Center at Houston",
+        "website": "https://med.uth.edu/pmr/faculty/gerard-e-francisco-md",
+        "image": "gerard_francisco.jpg"
+    },
+    {
+        "name": "Fred Higgs",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "John and Ann Doerr Professor and Interim Vice Provost for Academic Affairs, Dept. of Mechanical Engineering, Rice University",
+        "website": "https://ampt.rice.edu",
+        "image": "fred_higgs.jpg"
+    },
+    {
+        "name": "Valerae Lewis",
+        "role": "Faculty Collaborator",
+        "titles": ["MD"],
+        "description": "Professor and Chair, Dept. of Orthopaedic Oncology, MD Anderson Cancer Center",
+        "website": "https://faculty.mdanderson.org/profiles/valerae_lewis.html",
+        "image": "valerae_lewis.jpg"
+    },
+    {
+        "name": "Marcia O'Malley",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor and Chair, Dept. of Mechanical Engineering, Rice University",
+        "website": "https://marciaomalley.rice.edu",
+        "image": "marcia_omalley.jpg"
+    },
+    {
+        "name": "Scott Banks",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor, Dept. of Mechanical & Aerospace Engineering, University of Florida",
+        "website": "https://www.ortho.ufl.edu/scott-banks",
+        "image": "scott_banks.jpg"
+    },
+    {
+        "name": "Thor Besier",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Associate Professor, Auckland Bioengineering Institute, University of Auckland, New Zealand",
+        "website": "https://profiles.auckland.ac.nz/t-besier",
+        "image": "thor_besier.jpg"
+    },
+    {
+        "name": "Javier Cuadrado",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor, Dept. of Mechanical Engineering, University of La Coruña, Spain",
+        "website": "https://lim.ii.udc.es/people.en.html",
+        "image": "javier_cuadrado.jpg"
+    },
+    {
+        "name": "Darryl D'Lima",
+        "role": "Faculty Collaborator",
+        "titles": ["MD", "PhD"],
+        "description": "Director, Shiley Center for Orthopaedic Research & Education, Scripps Clinic, La Jolla, CA",
+        "website": "https://www.scripps.org/research/areas-of-research/orthopedic-research/darryl-d-lima-md-phd-director-orthopaedic-research-laboratories",
+        "image": "darryl_dlima.jpg"
+    },
+    {
+        "name": "Richie Gill",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor, Dept. of Mechanical Engineering, University of Bath, United Kingdom",
+        "website": "https://researchportal.bath.ac.uk/en/persons/richie-gill",
+        "image": "richie_gill.jpg"
+    },
+    {
+        "name": "Josep Llagunes",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Associate Professor, Dept. of Mechanical Engineering, Universitat Politècnica de Catalunya · BarcelonaTech, Spain",
+        "website": "http://biomec.upc.edu/lab-members",
+        "image": "josep_llagunes.jpg"
+    },
+    {
+        "name": "David Lloyd",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor, Griffith Health Institute, Griffith University, Australia",
+        "website": "https://experts.griffith.edu.au/18616-david-lloyd",
+        "image": "david_lloyd.jpg"
+    },
+    {
+        "name": "Carolynn Patten",
+        "role": "Faculty Collaborator",
+        "titles": ["PT", "PhD"],
+        "description": "Professor, Dept. of Physical Medicine & Rehabilitation, UC Davis School of Medicine",
+        "website": "https://www.ucdavis.edu/new-faculty/carolynn-patten",
+        "image": "carolynn_patten.jpg"
+    },
+    {
+        "name": "Anil Rao",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor, Dept. of Mechanical & Aerospace Engineering, University of Florida",
+        "website": "https://www.anilvrao.com",
+        "image": "anil_rao.jpg"
+    },
+    {
+        "name": "Scott Tashman",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Director of Biomedical Engineering, The Steadman Clinic and Steadman Phillipon Research Institute, Vail, CO",
+        "website": "https://www.sprivail.org/departments/biomed-engineering/scott-tashman",
+        "image": "scott_tashman.jpg"
+    },
+    {
+        "name": "Lena Ting",
+        "role": "Faculty Collaborator",
+        "titles": ["PhD"],
+        "description": "Professor, Dept. of Biomedical Engineering, Emory University/Georgia Institute of Technology",
+        "website": "http://neuromechanicslab.emory.edu/people/ting-lena.html",
+        "image": "lena_ting.jpg"
+    },
+    {
+        "name": "Kayla Pariser",
+        "role": "Research Staff",
+        "titles": ["PhD"],
+        "description": "Post-Doctoral Fellow",
+        "email": "kayla.pariser@rice.edu",
+        "image": "kayla_pariser.jpg"
+    },
+    {
+        "name": "Geng Li",
+        "role": "Research Staff",
+        "titles": ["PhD"],
+        "description": "Post-Doctoral Fellow",
+        "email": "geng.li@rice.edu",
+        "image": "geng_li.jpg"
+    },
+    {
+        "name": "Claire Hammond",
+        "role": "Student",
+        "titles": [],
+        "description": "Ph.D. Candidate",
+        "email": "cvhammond@rice.edu",
+        "image": "claire_hammond.jpg"
+    },
+    {
+        "name": "Spencer Williams",
+        "role": "Student",
+        "titles": [],
+        "description": "Ph.D. Candidate",
+        "email": "stwilliams@rice.edu",
+        "image": "spencer_williams.jpg"
+    },
+    {
+        "name": "Robert Salati",
+        "role": "Student",
+        "titles": [],
+        "description": "Ph.D. Candidate",
+        "email": "rsalati@rice.edu",
+        "image": "robert_salati.jpg"
+    }
+]
