@@ -46,10 +46,12 @@ The `people` page is generated from information in a [people.json](src/data/peop
     "description": "Professor and CPRIT Scholar in Cancer Research",
     "website": "https://rcnl.rice.edu",
     "email": "fregly@rice.edu",
-    "image": "bj_fregly.jpg" // the image file found in the 'public/assets/people/' folder
+    "image": "bj_fregly.jpg"
 }
 ```
 
 To add, remove, or update a person's information, just modify the [people.json](src/components/people/people.json) file. This should automatically update the people page.
+
+To add or change an image, just place the image in the [people](public/assets/people/) folder. If you want a person to use this new image then update that person's`"image"` field in the [people.json](src/components/people/people.json) file.
 
 This same process can be followed for the other `publications`, `research`, and `resources` pages. 
