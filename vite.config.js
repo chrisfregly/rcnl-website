@@ -9,6 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
     svgr(),
-  ],
-  base: "/rcnl-website"
+  ]
 })
