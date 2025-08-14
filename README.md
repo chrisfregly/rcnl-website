@@ -28,7 +28,7 @@ Once you have tested your changes, git commit and push them to the `main` branch
 npm run deploy
 ```
 
-This will deploy your changes live to the [rcnl.rice.edu](rcnl.rice.edu) domain.
+This will automatically build and push a compiled version of the site to the `gh-pages` branch. Once published, a Github pipeline will kick off which will deploy the changes live to the [rcnl.rice.edu](rcnl.rice.edu) domain.
 
 ## How To Update Pages
 
