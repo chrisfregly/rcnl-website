@@ -22,13 +22,7 @@ Any changes made to the code on your local machine will automatically update the
 
 ### Remote Deployment
 
-Once you have tested your changes, git commit and push them to the `main` branch. Then from your local machine run the following command:
-
-```bash
-npm run deploy
-```
-
-This will automatically build and push a compiled version of the site to the `gh-pages` branch. Once published, a Github pipeline will kick off which will deploy the changes live to the [rcnl.rice.edu](rcnl.rice.edu) domain.
+Once you have tested your changes, git push them to the `main` branch. This will kick off a continuous integration (CI) pipeline that builds and publishes the site to the `gh-pages` branch. From there, a second continuous deployment (CD) pipeline will kick-off that deploys the site to the live [rcnl.rice.edu](rcnl.rice.edu) domain.
 
 ## How To Update Pages
 
