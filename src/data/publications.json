@@ -1,0 +1,2186 @@
+[
+    {
+        "title": "Evaluation of synergy extrapolation for predicting unmeasured muscle excitations from measured muscle synergies.",
+        "journal": "Frontiers in Computational Neuroscience",
+        "volume": "14",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Ao, D.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Shourijeh, M.S.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Patten, C."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "fcn2020a.pdf"
+    },
+    {
+        "title": "Musculoskeletal model personalization affects metabolic cost estimates for walking.",
+        "journal": "Frontiers in Bioengineering and Biotechnology",
+        "volume": "8",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Arones, M.S.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Shourijeh, M.S.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Patten, C."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "fbb2020.pdf"
+    },
+    {
+        "title": "Comparison of different optimal control formulations for generating dynamically consistent orthosis-assisted crutch walking simulations.",
+        "journal": "Mechanism and Machine Theory",
+        "volume": "154",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Febrer-Nafría, M.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Pallarès-López, R."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Font-Llagunes, J.M.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "mmt2020.pdf"
+    },
+    {
+        "title": "Do muscle synergies improve optimization prediction of muscle activations during gait?",
+        "journal": "Frontiers in Computational Neuroscience",
+        "volume": "14",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Michaud, F.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Shourijeh, M.S.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Cuadrado, J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "fcn2020b.pdf"
+    },
+    {
+        "title": "Minimising tibial fracture after unicompartmental knee replacement: A probabilistic finite element study.",
+        "journal": "Clinical Biomechanics",
+        "volume": "73",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Pegg, E.C.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Walter, J.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "D'Lima, D.D."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Gill, H.S."
+            },
+            {
+                "name": "Murray, D.W."
+            }
+        ],
+        "file": "cb2020.pdf"
+    },
+    {
+        "title": "Influence of musculoskeletal model parameter values on prediction of accurate knee contact forces during walking.",
+        "journal": "Medical Engineering & Physics",
+        "volume": "85",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Serrancolí, G.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Kinney, A.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J."
+            }
+        ],
+        "file": "mep2020.pdf"
+    },
+    {
+        "title": "Muscle synergies modify static optimization estimates of joint stiffness during walking.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "142",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Shourijeh, M.S.",
+                "tag": "postgraduate, corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J."
+            }
+        ],
+        "file": "jbme2020.pdf"
+    },
+    {
+        "title": "Editorial: Advances in musculoskeletal modeling and their application to neurorehabilitation.",
+        "journal": "Frontiers in Neurorobotics",
+        "volume": "14",
+        "date": "2020",
+        "authors": [
+            {
+                "name": "Shourijeh, M.S.",
+                "tag": "postgraduate, corresponding_author"
+            },
+            {
+                "name": "Mehrabi, N."
+            },
+            {
+                "name": "McPhee, J."
+            },
+            {
+                "name": "Fregly, B.J."
+            }
+        ],
+        "file": "fnr2020.pdf"
+    },
+    {
+        "title": "The effect of plate design, bridging span, and fracture healing on the performance of high tibial osteotomy plates: An experimental and finite element study.",
+        "journal": "Bone & Joint Research",
+        "volume": "7",
+        "date": "2019",
+        "authors": [
+            {
+                "name": "MacLeod, A.R."
+            },
+            {
+                "name": "Serrancoli, G."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Toms, A.D."
+            },
+            {
+                "name": "Gill, H.S."
+            }
+        ],
+        "file": "bjr2019.pdf"
+    },
+    {
+        "title": "Computational design of FastFES treatment to improve propulsive force symmetry during post-stroke gait: a feasibility study.",
+        "journal": "Frontiers in Neurorobotics",
+        "volume": "13",
+        "date": "2019",
+        "authors": [
+            {
+                "name": "Sauder, N.R.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Allen, J.L."
+            },
+            {
+                "name": "Ting, L.H."
+            },
+            {
+                "name": "Kesar, T.M."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "fnr2019.pdf"
+    },
+    {
+        "title": "Can measured muscle synergies construct unmeasured muscle excitations?",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "40",
+        "date": "2018",
+        "authors": [
+            {
+                "name": "Bianco, N.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Patten, C."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2018.pdf"
+    },
+    {
+        "title": "A computational framework for simultaneous estimation of muscle and joint contact forces and body motion using optimization and surrogate modeling.",
+        "journal": "Medical Engineering & Physics",
+        "volume": "54",
+        "date": "2018",
+        "authors": [
+            {
+                "name": "Eskinazi, I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "mep2018.pdf"
+    },
+    {
+        "title": "Methodological choices in muscle synergy analysis impact differentiation of physiological characteristics following storke.",
+        "journal": "Frontiers in Computational Neuroscience",
+        "volume": "11",
+        "date": "2017",
+        "authors": [
+            {
+                "name": "Banks, C.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Pai, M.M.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "McGuirk, T.E."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Patten, C.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "fcn2017.pdf"
+    },
+    {
+        "title": "Lower extremity EMG-driven modeling of walking with automated adjustment of musculoskeletal geometry.",
+        "journal": "PLoS ONE",
+        "volume": "12",
+        "date": "2017",
+        "authors": [
+            {
+                "name": "Meyer, A.J.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Patten, C."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "po2017.pdf"
+    },
+    {
+        "title": "Muscle synergies facilitate computational prediction of subject-specific walking motions.",
+        "journal": "Frontiers in Bioengineering and Biotechnology",
+        "volume": "4",
+        "date": "2016",
+        "authors": [
+            {
+                "name": "Meyer, A.J.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Eskinazi, I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Jackson, J.N.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Rao, A.V."
+            },
+            {
+                "name": "Patten, C."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "fbb2016.pdf"
+    },
+    {
+        "title": "Evaluation of direct collocation optimal control problem formulations for solving the muscle redundancy problem.",
+        "journal": "Annals of Biomedical Engineering",
+        "volume": "44",
+        "date": "2016",
+        "authors": [
+            {
+                "name": "De Groote, F.",
+                "tag": "postgraduate, corresponding_author"
+            },
+            {
+                "name": "Kinney, A.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Rao, A.V."
+            },
+            {
+                "name": "Fregly, B.J."
+            }
+        ],
+        "file": "abe2016.pdf"
+    },
+    {
+        "title": "An open-source toolbox for surrogate modeling of joint contact mechanics.",
+        "journal": "IEEE Transactions on Biomedical Engineering",
+        "volume": "63",
+        "date": "2016",
+        "authors": [
+            {
+                "name": "Eskinazi, I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "tbme2016.pdf"
+    },
+    {
+        "title": "Development of a subject-specific foot-ground contact model for gait.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "138",
+        "date": "2016",
+        "authors": [
+            {
+                "name": "Jackson, J.N.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Hass, C.J."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2016a.pdf"
+    },
+    {
+        "title": "Neuromusculoskeletal model calibration significantly affects accuracy of predicted knee contact forces for walking.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "138",
+        "date": "2016",
+        "authors": [
+            {
+                "name": "Serrancolí, G.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Kinney, A.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Font-Llagunes, J.M.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2016b.pdf"
+    },
+    {
+        "title": "Surrogate modeling of deformable joint contact using artificial neural networks.",
+        "journal": "Medical Engineering & Physics",
+        "volume": "37",
+        "date": "2015",
+        "authors": [
+            {
+                "name": "Eskinazi, I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "mep2015.pdf"
+    },
+    {
+        "title": "Computational prediction of muscle moments during ARED squat exercise on the International Space Station.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "137",
+        "date": "2015",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, C.D.",
+                "tag": "highschool"
+            },
+            {
+                "name": "Kim, B.T.",
+                "tag": "highschool"
+            }
+        ],
+        "file": "jbme2015a.pdf"
+    },
+    {
+        "title": "Residual elimination algorithm enhancements to improve foot motion tracking during forward dynamic simulations of gait.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "137",
+        "date": "2015",
+        "authors": [
+            {
+                "name": "Jackson, J.J.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Hass, C.J."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2015b.pdf"
+    },
+    {
+        "title": "Patient-specific computer model of dynamic squatting after total knee arthroplasty.",
+        "journal": "Journal of Arthroplasty",
+        "volume": "30",
+        "date": "2015",
+        "authors": [
+            {
+                "name": "Mizu-uchi, H."
+            },
+            {
+                "name": "Colwell, C.W."
+            },
+            {
+                "name": "Flores-Hernandez, C."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Matsuda, S."
+            },
+            {
+                "name": "Iwamoto, Y."
+            },
+            {
+                "name": "D'Lima, D.D.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "joa2015.pdf"
+    },
+    {
+        "title": "CEINMS: A toolbox to investigate the influence of different neural solutions on the prediction of muscle excitation and joint moments during dynamic motor tasks.",
+        "journal": "Journal of Biomechanics",
+        "volume": "48",
+        "date": "2015",
+        "authors": [
+            {
+                "name": "Pizzolato, C."
+            },
+            {
+                "name": "Lloyd, D.G.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Sartori, M."
+            },
+            {
+                "name": "Ceseracciu, E."
+            },
+            {
+                "name": "Besier, T.F."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Reggiani, M.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "job2015.pdf"
+    },
+    {
+        "title": "Contribution of tibiofemoral joint contact to net loads at the knee in gait.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "33",
+        "date": "2015",
+        "authors": [
+            {
+                "name": "Walter, J.P.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Korkmaz, N."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Pandy, M.G.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2015.pdf"
+    },
+    {
+        "title": "Neuromuscular complexity during gait is not responsive to medication in persons with Parkinson's disease.",
+        "journal": "Annals of Biomedical Engineering",
+        "volume": "42",
+        "date": "2014",
+        "authors": [
+            {
+                "name": "Roemmich, R.T."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Hass, C.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "abe2014.pdf"
+    },
+    {
+        "title": "Muscle synergies may improve optimization prediction of knee contact forces during walking.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "136",
+        "date": "2014",
+        "authors": [
+            {
+                "name": "Walter J.P.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Kinney, A.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "D’Lima, D.D."
+            },
+            {
+                "name": "Besier, T.F."
+            },
+            {
+                "name": "Lloyd, D.G."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2014.pdf"
+    },
+    {
+        "title": "Implantable sensor technology: measuring bone and joint biomechanics of daily life in vivo.",
+        "journal": "Arthritis Research and Therapy",
+        "volume": "15",
+        "date": "2013",
+        "authors": [
+            {
+                "name": "D’Lima, D.D.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Colwell, C.W."
+            }
+        ],
+        "file": "art2013.pdf"
+    },
+    {
+        "title": "Subject-specific knee joint geometry improves predictions of medial tibiofemoral contact forces.",
+        "journal": "Journal of Biomechanics",
+        "volume": "46",
+        "date": "2013",
+        "authors": [
+            {
+                "name": "Gerus, P."
+            },
+            {
+                "name": "Sartori, M."
+            },
+            {
+                "name": "Besier, T.F."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Delp, S.L."
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Pandy, M.G."
+            },
+            {
+                "name": "D’Lima, D.D."
+            },
+            {
+                "name": "Lloyd, D.G.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jb2013.pdf"
+    },
+    {
+        "title": "Update on grand challenge competition to predict in vivo knee loads.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "135",
+        "date": "2013",
+        "authors": [
+            {
+                "name": "Kinney, A.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Besier, T.F."
+            },
+            {
+                "name": "D'Lima, D.D."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2013.pdf"
+    },
+    {
+        "title": "Changes in in vivo knee contact forces through gait modification.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "31",
+        "date": "2013",
+        "authors": [
+            {
+                "name": "Kinney, A.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Besier, T.F."
+            },
+            {
+                "name": "Silder, A."
+            },
+            {
+                "name": "Delp, S.L."
+            },
+            {
+                "name": "D’Lima, D.D."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2013a.pdf"
+    },
+    {
+        "title": "Are external knee load and EMG measures accurate indicators of internal knee contact forces during gait?",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "31",
+        "date": "2013",
+        "authors": [
+            {
+                "name": "Meyer, A.J.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "D’Lima, D.D."
+            },
+            {
+                "name": "Besier, T.F."
+            },
+            {
+                "name": "Lloyd, D.G."
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Colwell, C.W. Jr.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2013b.pdf"
+    },
+    {
+        "title": "Evaluation of factors affecting tibial bone strain after unicompartmental knee replacement.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "31",
+        "date": "2013",
+        "authors": [
+            {
+                "name": "Pegg, E.C."
+            },
+            {
+                "name": "Walter, J.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Mellon, S.J."
+            },
+            {
+                "name": "Pandit, H.G."
+            },
+            {
+                "name": "Murray, D.W."
+            },
+            {
+                "name": "D’Lima, D.D."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Gill, H.S.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2013c.pdf"
+    },
+    {
+        "title": "Persons with Parkinson's disease exhibit decreased neuromuscular complexity during gait.",
+        "journal": "Clinical Neurophysiology",
+        "volume": "124",
+        "date": "2013",
+        "authors": [
+            {
+                "name": "Rodriguez, K."
+            },
+            {
+                "name": "Roemmich R."
+            },
+            {
+                "name": "Cam, B.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B."
+            },
+            {
+                "name": "Hass, C.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "cn2013.pdf"
+    },
+    {
+        "title": "Structures promoting research, training, and technology transfer in mobility: lessons learned from a visit to European centers.",
+        "journal": "Journal of NeuroEngineering and Rehabilitation",
+        "volume": "9",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "Boninger, M.L.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Cowan, R.E."
+            },
+            {
+                "name": "Fregly, B.J."
+            }
+        ],
+        "file": "jner2012a.pdf"
+    },
+    {
+        "title": "Recent trends in assistive technology for mobility.",
+        "journal": "Journal of NeuroEngineering and Rehabilitation",
+        "volume": "9",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "Cowan, R.E.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Boninger, M.L."
+            },
+            {
+                "name": "Chan, L."
+            },
+            {
+                "name": "Rodgers, M.M."
+            },
+            {
+                "name": "Reinkensmeyer, D.J."
+            }
+        ],
+        "file": "jner2012b.pdf"
+    },
+    {
+        "title": "Knee joint forces: prediction, measurement, and significance.",
+        "journal": "Proceedings of the Institution of Mechanical Engineers, Part H: Journal of Engineering in Medicine",
+        "volume": "226",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "D'Lima, D.D.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Patil, S."
+            },
+            {
+                "name": "Steklov, N."
+            },
+            {
+                "name": "Colwell, C.W."
+            }
+        ],
+        "file": "imeche2012.pdf"
+    },
+    {
+        "title": "Gait modification to treat knee osteoarthritis.",
+        "journal": "HSS Journal",
+        "volume": "8",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "hssj2012.pdf"
+    },
+    {
+        "title": "Grand challenge competition to predict in vivo knee loads.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "30",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Besier, T.F."
+            },
+            {
+                "name": "Lloyd, D.G."
+            },
+            {
+                "name": "Delp, S.L."
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Pandy, M.G."
+            },
+            {
+                "name": "D’Lima, D.D."
+            }
+        ],
+        "file": "jor2012.pdf"
+    },
+    {
+        "title": "Personalized neuromusculoskeletal modeling to improve treatment of mobility impairments.",
+        "journal": "Journal of NeuroEngineering and Rehabilitation",
+        "volume": "9",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Boninger, M.L."
+            },
+            {
+                "name": "Reinkensmeyer, D.J."
+            }
+        ],
+        "file": "jner2012c.pdf"
+    },
+    {
+        "title": "Major trends in mobility technology research and development: overview of the results of the NSF-WTEC European study.",
+        "journal": "Journal of NeuroEngineering and Rehabilitation",
+        "volume": "9",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "Reinkensmeyer, D.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Bonato, P."
+            },
+            {
+                "name": "Boninger, M.L."
+            },
+            {
+                "name": "Chan, L."
+            },
+            {
+                "name": "Cowan, R.E."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Rodgers, M.M."
+            }
+        ],
+        "file": "jner2012d.pdf"
+    },
+    {
+        "title": "The pathophysiology of osteoarthritis: a mechanical perspective on the knee joint.",
+        "journal": "Physical Medicine & Rehabilitation",
+        "volume": "4",
+        "date": "2012",
+        "authors": [
+            {
+                "name": "Vincent, K.R.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Conrad, B.P."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Vincent, H.K."
+            }
+        ],
+        "file": "pmr2012.pdf"
+    },
+    {
+        "title": "Computational wear simulation of patellofemoral articular cartilage during in vitro testing.",
+        "journal": "Journal of Biomechanics",
+        "volume": "44",
+        "date": "2011",
+        "authors": [
+            {
+                "name": "Li, L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Patil, S."
+            },
+            {
+                "name": "Steklov, N."
+            },
+            {
+                "name": "Bae, W."
+            },
+            {
+                "name": "Temple-Wong, M."
+            },
+            {
+                "name": "D'Lima, D.D."
+            },
+            {
+                "name": "Sah, R.L."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jb2011.pdf"
+    },
+    {
+        "title": "Increased conformity offers diminishing returns for total knee replacement wear.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "132",
+        "date": "2010",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Marquez-Barrientos, C.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "DesJardins, J.D."
+            }
+        ],
+        "file": "jbme2010.pdf"
+    },
+    {
+        "title": "Surrogate articular contact models for computationally efficient multibody dynamic simulations.",
+        "journal": "Medical Engineering & Physics",
+        "volume": "32",
+        "date": "2010",
+        "authors": [
+            {
+                "name": "Lin, Y.C.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "Queipo, N.V."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "mep2010.pdf"
+    },
+    {
+        "title": "Simultaneous prediction of muscle and contact forces in the knee during gait.",
+        "journal": "Journal of Biomechanics",
+        "volume": "43",
+        "date": "2010",
+        "authors": [
+            {
+                "name": "Lin, Y.C.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Walter, J.P.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Pandy, M.G."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jb2010.pdf"
+    },
+    {
+        "title": "Decreased knee adduction moment does not guarantee decreased medial contact force during gait.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "28",
+        "date": "2010",
+        "authors": [
+            {
+                "name": "Walter, J.P.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "D'Lima, D.D."
+            },
+            {
+                "name": "Colwell, C.W."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2010.pdf"
+    },
+    {
+        "title": "Design of optimal treatments for neuromusculoskeletal disorders using patient-specific multibody dynamic models.",
+        "journal": "International Journal of Computational Vision and Biomechanics",
+        "volume": "2",
+        "date": "2009",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "ijcvb2009.pdf"
+    },
+    {
+        "title": "Effective gait patterns for offloading the medial compartment of the knee.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "27",
+        "date": "2009",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "D’Lima, D.D."
+            },
+            {
+                "name": "Colwell, C.W."
+            }
+        ],
+        "file": "jor2009a.pdf"
+    },
+    {
+        "title": "Knee kinematics in medial osteoarthritis during in vivo weight-bearing activities.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "27",
+        "date": "2009",
+        "authors": [
+            {
+                "name": "Hamai, S."
+            },
+            {
+                "name": "Moro-oka, T."
+            },
+            {
+                "name": "Miura, H."
+            },
+            {
+                "name": "Shimoto, T."
+            },
+            {
+                "name": "Higaki, H."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Iwamoto, Y."
+            },
+            {
+                "name": "Banks, S.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2009b.pdf"
+    },
+    {
+        "title": "Evaluation of predicted knee-joint muscle forces during gait using an instrumented knee implant.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "27",
+        "date": "2009",
+        "authors": [
+            {
+                "name": "Kim, H.J"
+            },
+            {
+                "name": "Fernandez, J.W."
+            },
+            {
+                "name": "Akbarshahi, M."
+            },
+            {
+                "name": "Walter, J.P.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Pandy, M.G.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2009c.pdf"
+    },
+    {
+        "title": "Limitations of parallel global optimization for large-scale human movement problems.",
+        "journal": "Medical Engineering & Physics",
+        "volume": "31",
+        "date": "2009",
+        "authors": [
+            {
+                "name": "Koh, B.-I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "George, A.D."
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "mep2009.pdf"
+    },
+    {
+        "title": "Two-dimensional surrogate contact modeling for computationally efficient dynamic simulations of total knee replacements.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "131",
+        "date": "2009",
+        "authors": [
+            {
+                "name": "Lin, Y.C.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Queipo, N.V."
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2009.pdf"
+    },
+    {
+        "title": "In vivo contact stresses during activities of daily living after knee arthroplasty.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "26",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "D'Lima, D.D.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Steklov, N"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Colwell, C.W."
+            }
+        ],
+        "file": "jor2008a.pdf"
+    },
+    {
+        "title": "Computational assessment of combinations of gait modifications for knee osteoarthritis rehabilitation.",
+        "journal": "IEEE Transactions on Biomedical Engineering",
+        "volume": "55",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "tbme2008.pdf"
+    },
+    {
+        "title": "Sensitivity of knee replacement contact calculations to kinematic measurement errors.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "26",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "D’Lima, D.D."
+            },
+            {
+                "name": "Colwell, C.W."
+            }
+        ],
+        "file": "jor2008b.pdf"
+    },
+    {
+        "title": "Evaluation of a patient-specific cost function to predict the influence of foot path on the knee adduction torque during gait.",
+        "journal": "Computer Methods in Biomechanics and Biomedical Engineering",
+        "volume": "11",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Chmielewski, T.L."
+            }
+        ],
+        "file": "cmbbe2008.pdf"
+    },
+    {
+        "title": "Dynamic activity dependence of in vivo normal knee kinematics.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "26",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Moro-oka, T."
+            },
+            {
+                "name": "Hamai, S."
+            },
+            {
+                "name": "Miura, H."
+            },
+            {
+                "name": "Shimoto, T."
+            },
+            {
+                "name": "Higaki, H."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Iwamoto, Y."
+            },
+            {
+                "name": "Banks, S.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2008c.pdf"
+    },
+    {
+        "title": "A computational framework to predict post-treatment outcome for gait-related disorders.",
+        "journal": "Medical Engineering & Physics",
+        "volume": "30",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "Chmielewski, T.L."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "mep2008.pdf"
+    },
+    {
+        "title": "The effect of gait modification on the external knee adductor moment is reference frame dependent.",
+        "journal": "Clinical Biomechanics",
+        "volume": "23",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Schache, A.G.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Crossley, K.M"
+            },
+            {
+                "name": "Hinman, R.S."
+            },
+            {
+                "name": "Pandy, M.G."
+            }
+        ],
+        "file": "cb2008.pdf"
+    },
+    {
+        "title": "The effects of medial meniscal transplantation techniques on intra-articular contact pressures.",
+        "journal": "The Journal of Knee Surgery",
+        "volume": "21",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Verma, N.N."
+            },
+            {
+                "name": "Kolb, E"
+            },
+            {
+                "name": "Cole, B.J."
+            },
+            {
+                "name": "Berkson, E"
+            },
+            {
+                "name": "Garretson, R"
+            },
+            {
+                "name": "Farr, J"
+            },
+            {
+                "name": "Fregly, B."
+            }
+        ],
+        "file": "jks2008.pdf"
+    },
+    {
+        "title": "Predicting knee replacement damage in a simulator machine using a computational model with a consistent wear factor.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "130",
+        "date": "2008",
+        "authors": [
+            {
+                "name": "Zhao, D.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Sadoka, H."
+            },
+            {
+                "name": "Sawyer, W.G."
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2008.pdf"
+    },
+    {
+        "title": "Design of patient-specific gait modifications for knee osteoarthritis rehabilitation.",
+        "journal": "IEEE Transactions on Biomedical Engineering",
+        "volume": "54",
+        "date": "2007",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Rooney, K.L.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Mitchell, K.H."
+            },
+            {
+                "name": "Chmielewski, T.L."
+            }
+        ],
+        "file": "tbme2007a.pdf"
+    },
+    {
+        "title": "Can magnetic resonance imaging-derived bone models be used for accurate motion measurement with single-plane three-dimensional shape registration?",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "25",
+        "date": "2007",
+        "authors": [
+            {
+                "name": "Moro-oka, T."
+            },
+            {
+                "name": "Hamai, S."
+            },
+            {
+                "name": "Miura, H."
+            },
+            {
+                "name": "Higaki., H."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Iwamoto, Y."
+            },
+            {
+                "name": "Banks, S.A.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2007a.pdf"
+    },
+    {
+        "title": "Improved global convergence probability using multiple independent swarms.",
+        "journal": "International Journal for Numerical Methods in Engineering",
+        "volume": "71",
+        "date": "2007",
+        "authors": [
+            {
+                "name": "Schutte, J.F.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "ijnme2007.pdf"
+    },
+    {
+        "title": "Are patient-specific joint and inertial parameters necessary for accurate inverse dynamics analyses of gait?",
+        "journal": "IEEE Transactions on Biomedical Engineering",
+        "volume": "54",
+        "date": "2007",
+        "authors": [
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "Chmielewski, T.L."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "tbme2007b.pdf"
+    },
+    {
+        "title": "In vivo medial and lateral tibial loads during dynamic and high flexion activities.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "25",
+        "date": "2007",
+        "authors": [
+            {
+                "name": "Zhao, D.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "D'Lima, D.D."
+            },
+            {
+                "name": "Colwell, C.W."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2007b.pdf"
+    },
+    {
+        "title": "Correlation between the knee adduction torque and medial contact force for a variety of gait patterns.",
+        "journal": "Journal of Orthopaedic Research",
+        "volume": "25",
+        "date": "2007",
+        "authors": [
+            {
+                "name": "Zhao, D.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Mitchell, K.H."
+            },
+            {
+                "name": "D'Lima, D.D."
+            },
+            {
+                "name": "Colwell, C.W."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jor2007c.pdf"
+    },
+    {
+        "title": "Computational wear prediction of UHMWPE in knee replacements.",
+        "journal": "Journal of ASTM International",
+        "volume": "3",
+        "date": "2006",
+        "authors": [
+            {
+                "name": "Zhao, D.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Sawyer, W.G."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jastmi2006.pdf"
+    },
+    {
+        "title": "Parallel asynchronous particle swarm optimization.",
+        "journal": "International Journal for Numerical Methods in Engineering",
+        "volume": "67",
+        "date": "2006",
+        "authors": [
+            {
+                "name": "Koh, B.-I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "George, A.D."
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "ijnme2006.pdf"
+    },
+    {
+        "title": "Response surface optimization for joint contact model evaluation.",
+        "journal": "Journal of Applied Biomechanics",
+        "volume": "22",
+        "date": "2006",
+        "authors": [
+            {
+                "name": "Lin, Y.-C.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Farr, J."
+            },
+            {
+                "name": "Carter, K."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jab2006.pdf"
+    },
+    {
+        "title": "Comparing in vivo kinematics of unicondylar and bi-unicondylar knee replacements.",
+        "journal": "Knee Surgery, Sports Traumatology, Arthroscopy",
+        "volume": "13",
+        "date": "2005",
+        "authors": [
+            {
+                "name": "Banks, S.A.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Boniforti, F."
+            },
+            {
+                "name": "Reinschmidt, C."
+            },
+            {
+                "name": "Romagnoli, S."
+            }
+        ],
+        "file": "kssta2005.pdf"
+    },
+    {
+        "title": "Theoretical accuracy of model-based shape matching for measuring natural knee kinematics with single-plane fluoroscopy.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "127",
+        "date": "2005",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Rahman, H.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Banks, S.A."
+            }
+        ],
+        "file": "jbme2005a.pdf"
+    },
+    {
+        "title": "Computational wear prediction of a total knee replacement from in vivo kinematics.",
+        "journal": "Journal of Biomechanics",
+        "volume": "38",
+        "date": "2005",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Sawyer, W.G."
+            },
+            {
+                "name": "Harman, M.K."
+            },
+            {
+                "name": "Banks, S.A."
+            }
+        ],
+        "file": "jb2005a.pdf"
+    },
+    {
+        "title": "Quantifying multidirectional sliding motions in total knee replacements,",
+        "journal": "Journal of Tribology",
+        "volume": "127",
+        "date": "2005",
+        "authors": [
+            {
+                "name": "Hamilton, M.A."
+            },
+            {
+                "name": "Sucec, M.C."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Sawyer, W.G.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jot2005.pdf"
+    },
+    {
+        "title": "Biomechanical mechanisms for damage: Retrieval analysis and computational wear predictions in total knee replacements.",
+        "journal": "Journal of Mechanics in Medicine and Biology",
+        "volume": "5",
+        "date": "2005",
+        "authors": [
+            {
+                "name": "Harman, M.K.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Sawyer, W.G."
+            },
+            {
+                "name": "Hodge, W.A."
+            }
+        ],
+        "file": "jmmb2005.pdf"
+    },
+    {
+        "title": "Determination of patient-specific multi-joint kinematic models through two-level optimization.",
+        "journal": "Journal of Biomechanics",
+        "volume": "38",
+        "date": "2005",
+        "authors": [
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Schutte, J.F.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "George, A.D."
+            },
+            {
+                "name": "Mitchell, K.H."
+            }
+        ],
+        "file": "jb2005b.pdf"
+    },
+    {
+        "title": "Evaluation of a particle swarm algorithm for biomechanical optimization.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "127",
+        "date": "2005",
+        "authors": [
+            {
+                "name": "Schutte, J.F.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Koh, B.-I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "George, A.D."
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jbme2005b.pdf"
+    },
+    {
+        "title": "Multibody dynamic simulation of knee contact mechanics.",
+        "journal": "Medical Engineering & Physics",
+        "volume": "26",
+        "date": "2004",
+        "authors": [
+            {
+                "name": "Bei, Y.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "mep2004.pdf"
+    },
+    {
+        "title": "Parallel global optimization with the particle swarm algorithm.",
+        "journal": "International Journal for Numerical Methods in Engineering",
+        "volume": "61",
+        "date": "2004",
+        "authors": [
+            {
+                "name": "Schutte, J.F.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Haftka, R.T."
+            },
+            {
+                "name": "George, A.D."
+            }
+        ],
+        "file": "ijnme2004.pdf"
+    },
+    {
+        "title": "The relationship between contact pressure, insert thickness, and mild wear in total knee replacements.",
+        "journal": "Computer Modeling in Engineering & Sciences",
+        "volume": "6",
+        "date": "2004",
+        "authors": [
+            {
+                "name": "Bei, Y.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Sawyer, W.G."
+            },
+            {
+                "name": "Banks, S.A."
+            },
+            {
+                "name": "Kim, N.H."
+            }
+        ],
+        "file": "cmes2004.pdf"
+    },
+    {
+        "title": "Evaluation of parallel decomposition methods for biomechanical optimizations.",
+        "journal": "Computer Methods in Biomechanics and Biomedical Engineering",
+        "volume": "7",
+        "date": "2004",
+        "authors": [
+            {
+                "name": "Koh, B.I.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Reinbolt, J.A.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "George, A.D."
+            }
+        ],
+        "file": "cmbbe2004.pdf"
+    },
+    {
+        "title": "Experimental evaluation of an elastic foundation model to predict contact pressures in knee replacements.",
+        "journal": "Journal of Biomechanics",
+        "volume": "36",
+        "date": "2003",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Bei, Y.",
+                "tag": "postgraduate"
+            },
+            {
+                "name": "Sylvester, M.E.",
+                "tag": "postgraduate"
+            }
+        ],
+        "file": "jb2003a.pdf"
+    },
+    {
+        "title": "Estimation of discretization errors in contact pressure measurements,",
+        "journal": "Journal of Biomechanics",
+        "volume": "36",
+        "date": "2003",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Sawyer, W.G."
+            }
+        ],
+        "file": "jb2003b.pdf"
+    },
+    {
+        "title": "Temperature modeling in a total knee joint replacement using patient-specific kinematics.",
+        "journal": "Tribology Letters",
+        "volume": "15",
+        "date": "2003",
+        "authors": [
+            {
+                "name": "Sawyer, W.G.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Hamilton, M.A."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Banks, S.A."
+            }
+        ],
+        "file": "tl2003.pdf"
+    },
+    {
+        "title": "Crank inertial load affects freely chosen pedal rate during cycling.",
+        "journal": "Journal of Biomechanics",
+        "volume": "35",
+        "date": "2002",
+        "authors": [
+            {
+                "name": "Hansen E.A.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Jorgensen L.V."
+            },
+            {
+                "name": "Jensen K."
+            },
+            {
+                "name": "Fregly B.J."
+            },
+            {
+                "name": "Sjogaard G."
+            }
+        ],
+        "file": "jb2002.pdf"
+    },
+    {
+        "title": "Bicycle drive system dynamics: theory and experimental validation.",
+        "journal": "Journal of Biomechanical Engineering",
+        "volume": "122",
+        "date": "2000",
+        "authors": [
+            {
+                "name": "Fregly, B.J.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Zajac, F.E."
+            },
+            {
+                "name": "Dairaghi, C. A."
+            }
+        ],
+        "file": "jbme2000.pdf"
+    },
+    {
+        "title": "Determination of joint functional axes from noisy marker data using the finite helical axis.",
+        "journal": "Human Movement Science",
+        "volume": "17",
+        "date": "1998",
+        "authors": [
+            {
+                "name": "Chèze, L.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Dimnet, J."
+            }
+        ],
+        "file": "hms1998.pdf"
+    },
+    {
+        "title": "A state-space analysis of mechanical energy generation, absorption, and transfer during pedaling.",
+        "journal": "Journal of Biomechanics",
+        "volume": "29",
+        "date": "1996",
+        "authors": [
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Zajac, F.E.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Dairaghi, C.A."
+            }
+        ],
+        "file": "jb1996a.pdf"
+    },
+    {
+        "title": "Crank inertial load has little effect on steady-state pedaling coordination.",
+        "journal": "Journal of Biomechanics",
+        "volume": "29",
+        "date": "1996",
+        "authors": [
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Zajac, F.E.",
+                "tag": "corresponding_author"
+            },
+            {
+                "name": "Dairaghi, C.A."
+            }
+        ],
+        "file": "jb1996b.pdf"
+    },
+    {
+        "title": "A solidification procedure to facilitate kinematic analyses based on video system data.",
+        "journal": "Journal of Biomechanics",
+        "volume": "28",
+        "date": "1995",
+        "authors": [
+            {
+                "name": "Chèze, L."
+            },
+            {
+                "name": "Fregly, B.J."
+            },
+            {
+                "name": "Dimnet, J.",
+                "tag": "corresponding_author"
+            }
+        ],
+        "file": "jb1995.pdf"
+    }
+]

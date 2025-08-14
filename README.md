@@ -30,11 +30,13 @@ npm run deploy
 
 This will deploy your changes live to the [rcnl.rice.edu](rcnl.rice.edu) domain.
 
-## How To
+## How To Update Pages
 
-### Update the People Page
+Most pages can be updated without the need to touch the underlying code. Specifically the `people`, `publications`, `research`, and `resources` pages each have their own [JSON data file](src/data/) and [assets folder](public/assets/) that they use to generate the content on the page.
 
-The people page is generated from information in a [people.json](src/components/people/people.json) file and photos from a [people](public/assets/people) folder. Here is an example of a person found in the [people.json](src/components/people/people.json) file:
+### Example - Updating the People Page 
+
+The `people` page is generated from information in a [people.json](src/data/people.json) file and photos from a [people](public/assets/people) folder. Here is an example of a person found in the [people.json](src/datat/people.json) file:
 
 ```json
 {
@@ -43,26 +45,11 @@ The people page is generated from information in a [people.json](src/components/
     "titles": ["PhD"],
     "description": "Professor and CPRIT Scholar in Cancer Research",
     "website": "https://rcnl.rice.edu",
-    // the 'email' field is only used if the 'website' field is left empty
     "email": "fregly@rice.edu",
-    // the 'image' located relative to the 'public/assets/people/' path
-    "image": "bj_fregly.jpg"
+    "image": "bj_fregly.jpg" // the image file found in the 'public/assets/people/' folder
 }
 ```
 
 To add, remove, or update a person's information, just modify the [people.json](src/components/people/people.json) file. This should automatically update the people page.
 
-### Update the Resources Page
-
-Similar to the people page, the resources page is generated from information in a [resources.json](src/components/resources/resources.json) file and pdf files located in a [resources](public/assets/resources/) folder. Here is an example of a resource found in the [resources.json](src/components/resources/resources.json) file:
-
-```json
-{
-    "name": "Lab Handbook",
-    "description": "RCNL expectations and policies",
-    // the 'file' located relative to the 'public/assets/resources/' path
-    "file": "rcnl_handbook.pdf"
-}
-```
-
-To add, remove, or update resource information, just modify the [resources.json](src/components/resources/resources.json) file. This should automatically update the resources page.
+This same process can be followed for the other `publications`, `research`, and `resources` pages. 

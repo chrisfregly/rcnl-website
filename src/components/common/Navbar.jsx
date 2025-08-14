@@ -3,7 +3,7 @@ import Logo from '../../assets/rcnl-logo.svg?react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { Link, useLocation } from 'react-router-dom';
-import UnderlineEffect from './UnderlineEffect';
+import UnderlineEffect from './effects/UnderlineEffect';
 
 function Navbar() {
 

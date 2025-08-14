@@ -1,0 +1,202 @@
+[
+    {
+        "file": "nsf_imu_summary.pdf",
+        "title": "User-friendly IMU-based Human Motion Measurement",
+        "funder": "National Science Foundation CBET Division Grant",
+        "startDate": "8/1/18",
+        "endDate": "7/31/21",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "cprit_summary.pdf",
+        "title": "Optimizing Surgical and Rehabilitation Treatment of Pelvic Sarcomas",
+        "funder": "Cancer Prevention Research Institute of Texas",
+        "startDate": "6/1/17",
+        "endDate": "5/31/22",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "ncsrr_summary.pdf",
+        "title": "Computational Design of FastFES Rehabilitation to Improve Post-Stroke Gait",
+        "funder": "National Institutes of Health National Center for Simulation in Rehabilitation Research",
+        "startDate": "1/1/17",
+        "endDate": "12/31/17",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nasa_summary.pdf",
+        "title": "Development of a Muscle Adaptation in Spaceflight Simulator",
+        "funder": "National Aeronautics and Space Administration Grant",
+        "startDate": "1/1/17",
+        "endDate": "12/31/19",
+        "role": "Co-Principal Investigator"
+    },
+    {
+        "file": "nsf_optimal_control_summary.pdf",
+        "title": "CDS&E: A Next-Generation Computation Framework for Predicting Optimal Walking Motion",
+        "funder": "National Science Foundation CBET Division Grant",
+        "startDate": "8/15/14",
+        "endDate": "8/14/17",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "REU: Computational Neuromechanics for Stroke Rehabilitation",
+        "funder": "National Science Foundation CBET Division BME Grant",
+        "startDate": "1/1/14",
+        "endDate": "8/15/14",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Driving Biological Problem: Predictive Simulations to Improve Walking in Patients Post Stroke",
+        "funder": "Stanford University (National Institutes of Health subcontract)",
+        "startDate": "1/1/14",
+        "endDate": "8/15/14",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nsf_comp_neuro_summary.pdf",
+        "title": "Computational Neuromechanics for Stroke Rehabilitation",
+        "funder": "National Science Foundation CBET Division BME Grant",
+        "startDate": "8/15/12",
+        "endDate": "8/14/15",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Computational Wear Assessment for BiCR Knee Designs",
+        "funder": "Biomet Corporation",
+        "startDate": "10/1/10",
+        "endDate": "4/1/11",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nsf_eager_summary.pdf",
+        "title": "EAGER: Treatment Planning for Gait Pathologies Based on Whole-Body Angular and Linear Momentum",
+        "funder": "National Science Foundation CBET Division RAPD Grant",
+        "startDate": "8/15/10",
+        "endDate": "8/14/13",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nih_knee_grand_challenge_summary.pdf",
+        "title": "Evaluation of In Vivo Knee Load Predictions using Instrumented Implants",
+        "funder": "National Institutes of Health NIBIB R01 Grant",
+        "startDate": "8/1/10",
+        "endDate": "4/30/15",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Estimating Probability of Gain in Next Cycle of Surrogate Based Design Optimization",
+        "funder": "National Science Foundation CMMI Division Grant",
+        "startDate": "9/1/09",
+        "endDate": "8/31/12",
+        "role": "Co-Principal Investigator"
+    },
+    {
+        "file": "nsf_knee_oa_summary.pdf",
+        "title": "Computational Simulation of Knee Osteoarthritis Development",
+        "funder": "National Science Foundation CBET Division BME Grant",
+        "startDate": "1/1/09",
+        "endDate": "12/31/11",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nih_gait_modification_summary.pdf",
+        "title": "Real-Time Model-Based Gait Retraining for Knee Osteoarthritis Rehabilitation",
+        "funder": "National Institutes of Health NCMRR R21 Grant",
+        "startDate": "9/12/07",
+        "endDate": "8/31/10",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "IREE: Surrogate-Based Modeling of Joint Contact Mechanics",
+        "funder": "National Science Foundation CBET Division BME Grant",
+        "startDate": "8/16/07",
+        "endDate": "4/30/09",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Computational Contact Pressure Testing of Knee Replacement Design Concepts",
+        "funder": "Encore Medical Corporation",
+        "startDate": "1/1/07",
+        "endDate": "6/1/07",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nsf_surrogate_contact_summary.pdf",
+        "title": "Surrogate-Based Modeling of Joint Contact Mechanics",
+        "funder": "National Science Foundation CBET Division BME/RAPD Grant",
+        "startDate": "5/1/06",
+        "endDate": "4/30/09",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Design and Computational Analysis of Novel Knee Replacement Concept",
+        "funder": "MAKO Surgical Corporation",
+        "startDate": "7/1/05",
+        "endDate": "8/15/08",
+        "role": "Co-Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Surgery Simulation of High Tibial Osteotomy - Transitional",
+        "funder": "Whitaker Foundation Biomedical Engineering Supplemental Research Grant",
+        "startDate": "5/1/05",
+        "endDate": "4/30/06",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Virtual Testing of a Unicondylar Knee Replacement Design",
+        "funder": "Exactech Corporation",
+        "startDate": "10/8/04",
+        "endDate": "1/1/05",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nsf_career_summary.pdf",
+        "title": "CAREER: Virtual PrototyPrincipal Investigatorng of Artificial Knees",
+        "funder": "National Science Foundation CBET Division RAPD CAREER Grant",
+        "startDate": "5/1/03",
+        "endDate": "4/30/08",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Virtual Testing of a Total Knee Replacement Design",
+        "funder": "Stryker-Howmedica Osteonics Corporation",
+        "startDate": "4/1/03",
+        "endDate": "12/1/03",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "nih_joint_mechanics_summary.pdf",
+        "title": "A Computational Framework for Simulating Joint Mechanics",
+        "funder": "National Institutes of Health NLM R03 Grant",
+        "startDate": "5/1/02",
+        "endDate": "4/30/05",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": null,
+        "title": "Contact Stress Testing of Artificial Knees",
+        "funder": "Exactech Corporation",
+        "startDate": "9/18/01",
+        "endDate": "12/15/02",
+        "role": "Principal Investigator"
+    },
+    {
+        "file": "whitaker_summary.pdf",
+        "title": "Surgery Simulation of High Tibial Osteotomy",
+        "funder": "Whitaker Foundation Biomedical Engineering Research Grant",
+        "startDate": "9/1/01",
+        "endDate": "8/31/04",
+        "role": "Principal Investigator"
+    }
+]
