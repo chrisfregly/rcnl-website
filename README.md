@@ -30,7 +30,7 @@ Most pages can be updated without the need to touch the underlying code. Specifi
 
 ### Example - Updating the People Page 
 
-The `people` page is generated from information in a [people.json](src/data/people.json) file and photos from a [people](public/assets/people) folder. Here is an example of a person found in the [people.json](src/datat/people.json) file:
+The `people` page is generated from information in a [people.json](src/data/people.json) file and photos from a [people](public/assets/people) folder. Here is an example of a person found in the [people.json](src/data/people.json) file:
 
 ```json
 {
@@ -44,8 +44,8 @@ The `people` page is generated from information in a [people.json](src/data/peop
 }
 ```
 
-To add, remove, or update a person's information, just modify the [people.json](src/components/people/people.json) file. This should automatically update the people page.
+To add, remove, or update a person's information, just modify the [people.json](src/data/people.json) file. This should automatically update the people page.
 
-To add or change an image, just place the image in the [people](public/assets/people/) folder. If you want a person to use this new image then update that person's`"image"` field in the [people.json](src/components/people/people.json) file.
+To add or change an image, just place the image in the [people](public/assets/people/) folder. If you want a person to use this new image then update that person's`"image"` field in the [people.json](src/data/people.json) file.
 
 This same process can be followed for the other `publications`, `research`, and `resources` pages. 
