@@ -36,7 +36,7 @@ function Navbar() {
         {
           openMobileNav ? 
             <div className='w-full h-screen flex flex-col justify-center items-center'>
-              <div className='mt-[-8em] flex flex-col items-center gap-1'>
+              <div className='mt-[-8em] flex flex-col items-center gap-2'>
                 <NavLink to={"Overview"} location={location.pathname} />
                 <NavLink to={"Research"} location={location.pathname} />
                 <NavLink to={"Publications"} location={location.pathname} />
