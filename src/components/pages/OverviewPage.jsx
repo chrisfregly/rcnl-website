@@ -11,10 +11,10 @@ function OverviewPage() {
 
       <ParticleEffect className="absolute top-0 h-screen -z-10" />
 
-      <div className="min-h-dvh w-full px-8 flex flex-col items-center text-slate-900">
+      <div className="flex flex-col items-center w-full px-8 min-h-dvh text-slate-900">
         <div className="max-w-[72em] w-full flex flex-col">
           
-          <h1 className="text-4xl font-bold mt-12">
+          <h1 className="mt-12 text-4xl font-bold">
             <UnderlineEffect underline={true} height="h-5">Overview</UnderlineEffect>
           </h1>
 

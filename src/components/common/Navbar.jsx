@@ -12,12 +12,12 @@ function Navbar() {
 
   return (
     <>
-      <nav className='fixed bg-white w-full px-8 py-4 flex flex-col justify-center items-center border-b-2 border-slate-200 z-50'>
+      <nav className='fixed z-50 flex flex-col items-center justify-center w-full px-8 py-4 bg-white border-b-2 border-slate-200'>
         <div className='max-w-[72em] w-full flex items-center justify-between'>
           <Link to={"/"}>
             <Logo className="h-6 sm:h-7 md:h-8 fill-blue" />
           </Link>
-          <div className='hidden md:flex gap-4 text-sm text-slate-900'>
+          <div className='hidden gap-4 text-sm md:flex text-slate-900'>
             <NavLink to={"Overview"} location={location.pathname} />
             <NavLink to={"Research"} location={location.pathname} />
             <NavLink to={"Publications"} location={location.pathname} />
@@ -35,7 +35,7 @@ function Navbar() {
         </div>
         {
           openMobileNav ? 
-            <div className='w-full h-screen flex flex-col justify-center items-center'>
+            <div className='flex flex-col items-center justify-center w-full h-screen'>
               <div className='mt-[-8em] flex flex-col items-center gap-2'>
                 <NavLink to={"Overview"} location={location.pathname} />
                 <NavLink to={"Research"} location={location.pathname} />
@@ -50,7 +50,7 @@ function Navbar() {
       </nav>
 
       {/* ensures components after navbar do not get lost behind the navbar */}
-      <div className='invisible w-full px-8 py-4 flex flex-col justify-center items-center'>
+      <div className='flex flex-col items-center justify-center invisible w-full px-8 py-4'>
         <Logo className="h-6 sm:h-7 md:h-8 fill-slate-900" />
       </div>
     </>

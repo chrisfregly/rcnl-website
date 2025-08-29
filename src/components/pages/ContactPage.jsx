@@ -15,16 +15,16 @@ function ContactPage() {
 
       <ParticleEffect className="absolute top-0 h-screen -z-10" />
 
-      <div className="min-h-dvh w-full px-8 flex flex-col items-center text-slate-900">
+      <div className="flex flex-col items-center w-full px-8 min-h-dvh text-slate-900">
         <div className="max-w-[72em] w-full flex flex-col">
           
-          <h1 className="text-4xl font-bold mt-12">
+          <h1 className="mt-12 text-4xl font-bold">
             <UnderlineEffect underline={true} height="h-5">Contact</UnderlineEffect>
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full mt-4 md:mt-8">
-            <div className="flex w-full justify-center md:justify-start">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full md:w-auto">
+          <div className="grid w-full grid-cols-1 gap-4 mt-4 md:grid-cols-2 md:gap-8 md:mt-8">
+            <div className="flex justify-center w-full md:justify-start">
+              <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 md:w-auto">
                 <Contact name={"Email"} href={"mailto:fregly@rice.edu"} info={"fregly@rice.edu"} icon={<MdEmail />} />
                 <Contact name={"Phone"} href={"tel:7133484906"} info={"(713) 348-4906"} icon={<FaPhoneAlt />} />
                 <Contact name={"Fax"} href={"tel:7133485423"} info={"(713) 348-5423"} icon={<BiSolidPrinter />} />
@@ -37,7 +37,7 @@ function ContactPage() {
               </div>
             </div>
 
-            <iframe className="border-2 h-72 w-full md:h-full border-slate-200 rounded-xl md:rounded-2xl" allowFullScreen={true}  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.9925263890127!2d-95.40280908488693!3d29.719975740782047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68cceacce233949!2sDepartment+of+Mechanical+Engineering+and+Materials+Science!5e0!3m2!1sen!2sus!4v1501714104659" />
+            <iframe className="w-full border-2 h-72 md:h-full border-slate-200 rounded-xl md:rounded-2xl" allowFullScreen={true}  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.9925263890127!2d-95.40280908488693!3d29.719975740782047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68cceacce233949!2sDepartment+of+Mechanical+Engineering+and+Materials+Science!5e0!3m2!1sen!2sus!4v1501714104659" />
           </div>
 
         </div>
@@ -58,7 +58,7 @@ function Contact({name, href, info, icon}) {
         <div className="flex items-center justify-start">
           { icon ? cloneElement(icon, {className: "fill-blue group-hover:fill-white text-xl"}) : <></> }
         </div>
-        <div className="relative top-0 ease-in-out duration-200 group-hover:-top-3">
+        <div className="relative top-0 duration-200 ease-in-out group-hover:-top-3">
           <h1 className="font-bold">{name}</h1>
           <div className="text-sm font-light">{info}</div>
         </div>
