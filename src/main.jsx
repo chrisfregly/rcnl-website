@@ -1,50 +1,31 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ParticleEffect from './components/common/effects/ParticleEffect.jsx';
-import './index.css'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import DeferredParticleEffect from './components/common/effects/DeferredParticleEffect.jsx';
+import RouteFrame from './components/common/RouteFrame.jsx';
+import RecoveryPage from './components/pages/RecoveryPage.jsx';
 import HomePage from './components/pages/HomePage.jsx';
-import OverviewPage from './components/pages/OverviewPage.jsx';
-import ResearchPage from './components/pages/ResearchPage.jsx';
-import PublicationsPage from './components/pages/PublicationsPage.jsx';
-import PeoplePage from './components/pages/PeoplePage.jsx';
-import ResourcesPage from './components/pages/ResourcesPage.jsx';
-import ContactPage from './components/pages/ContactPage.jsx';
+import './index.css';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />,
-  },
-  {
-    path: "/overview",
-    element: <OverviewPage />,
-  },
-  {
-    path: "/research",
-    element: <ResearchPage />,
-  },
-  {
-    path: "/publications",
-    element: <PublicationsPage />,
-  },
-  {
-    path: "/people",
-    element: <PeoplePage />,
-  },
-  {
-    path: "/resources",
-    element: <ResourcesPage />,
-  },
-  {
-    path: "/contact",
-    element: <ContactPage />,
-  },
-]);
+const router = createBrowserRouter([{
+  element: <RouteFrame />,
+  errorElement: <RecoveryPage />,
+  hydrateFallbackElement: <div className="min-h-dvh px-8 py-12"><p role="status">Loading page…</p></div>,
+  children: [
+    { path: '/', element: <HomePage /> },
+    { path: '/overview', lazy: async () => ({ Component: (await import('./components/pages/OverviewPage.jsx')).default }) },
+    { path: '/research', lazy: async () => ({ Component: (await import('./components/pages/ResearchPage.jsx')).default }) },
+    { path: '/publications', lazy: async () => ({ Component: (await import('./components/pages/PublicationsPage.jsx')).default }) },
+    { path: '/people', lazy: async () => ({ Component: (await import('./components/pages/PeoplePage.jsx')).default }) },
+    { path: '/resources', lazy: async () => ({ Component: (await import('./components/pages/ResourcesPage.jsx')).default }) },
+    { path: '/contact', lazy: async () => ({ Component: (await import('./components/pages/ContactPage.jsx')).default }) },
+    { path: '*', element: <RecoveryPage notFound /> },
+  ],
+}]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ParticleEffect />
+    <DeferredParticleEffect />
     <RouterProvider router={router} />
   </StrictMode>,
-)
+);

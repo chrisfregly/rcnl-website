@@ -1,0 +1,7 @@
+/* Keep the desktop row measurable while collapsed without exposing duplicate links. */
+.nav-desktop { display: flex; flex-shrink: 0; gap: 1rem; width: max-content; }
+.nav-desktop[data-collapsed="true"] { position: fixed; inset: 0 auto auto 0; visibility: hidden; pointer-events: none; transform: translateX(-200%); }
+.nav-toggle:not([hidden]) { display: flex; }
+.nav-mobile { max-height: calc(100dvh - var(--nav-header-height, 72px)); }
+
+.nav-row { gap: clamp(8px, 2vw, 16px); }

@@ -4,6 +4,10 @@
 @theme {
   --color-blue: #0f53ea;
   --color-light-blue: #afc2f4;
+  --color-surface-blue: #f2f6ff;
+  --color-control-hover: #f1f5ff;
+  --color-blue-hover: #0b42bf;
+  --color-blue-active: #09369c;
 }
 
 html {
@@ -19,12 +23,12 @@ html {
 button, input { font: inherit; }
 button { cursor: pointer; }
 input { caret-color: var(--color-blue); }
-input::placeholder { color: #475569; opacity: 1; }
+input::placeholder { color: var(--color-slate-600); opacity: 1; }
 .clearable-search::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
 main { overflow-wrap: anywhere; }
 main:focus { outline: none; }
 main > div, main a { min-width: 0; }
-::selection { background: var(--color-light-blue); color: #0f172a; }
+::selection { background: var(--color-light-blue); color: var(--color-slate-900); }
 
 .skip-link {
   position: fixed;
@@ -32,7 +36,7 @@ main > div, main a { min-width: 0; }
   inset-inline-start: 1rem;
   z-index: 100;
   padding: 0.75rem 1rem;
-  background: white;
+  background: var(--color-white);
   color: var(--color-blue);
   transform: translateY(-200%);
 }
@@ -45,7 +49,7 @@ main > div, main a { min-width: 0; }
 /* Stable reading surfaces: feedback changes color, never content position. */
 .quiet-card { transition: background-color 140ms ease-out, border-color 140ms ease-out; }
 a:hover .quiet-card, a:focus-visible .quiet-card {
-  background-color: color-mix(in srgb, var(--color-light-blue) 14%, white);
+  background-color: color-mix(in srgb, var(--color-light-blue) 14%, var(--color-white));
   border-color: var(--color-blue);
 }
 .section-emphasis, .nav-label {
@@ -63,12 +67,12 @@ a:hover .nav-label, a:focus-visible .nav-label { background-size: 100% 0.45em; }
   .quiet-card { transition: none; }
 }
 
-body { margin: 0; color: #0f172a; background: white; }
+body { margin: 0; color: var(--color-slate-900); background: var(--color-white); }
 h1 { text-wrap: balance; line-height: 1.15; }
 h2 { line-height: 1.4; }
 .quiet-card p { line-height: 1.6; }
-.primary-link:hover { background-color: #0b42bf; }
-.primary-link:active { background-color: #09369c; }
+.primary-link:hover { background-color: var(--color-blue-hover); }
+.primary-link:active { background-color: var(--color-blue-active); }
 .social-link:hover { color: var(--color-blue); }
 .social-link:hover svg { fill: currentColor; }
 
@@ -82,11 +86,11 @@ h2 { line-height: 1.4; }
   padding: 0.5rem 0.875rem;
   border: 1px solid var(--color-light-blue);
   border-radius: 4px;
-  background: white;
+  background: var(--color-white);
   color: var(--color-blue);
   font-size: 0.875rem;
 }
-.animation-toggle:hover { background: #f1f5ff; }
+.animation-toggle:hover { background: var(--color-control-hover); }
 .home-introduction { display: grid; gap: 1.5rem; }
 .home-mission { max-width: 36rem; }
 .campus-photo { display: block; width: 100%; height: auto; }

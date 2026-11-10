@@ -4,14 +4,14 @@
 .overview-purpose, .overview-research, .overview-section-body { min-width: 0; }
 .overview-purpose, .overview-research, .overview-collaborate {
   padding: 1.5rem;
-  border: 1px solid #e2e8f0;
-  background: white;
+  border: 1px solid var(--color-slate-200);
+  background: var(--color-white);
 }
 .overview-statement { line-height: 1.4; }
 .overview-purpose p, .overview-section-body > p, .overview-pipeline > p { line-height: 1.75; }
 .overview-section-body { margin-top: 1rem; }
 .overview-section-body > div { align-items: center; }
-.overview-pipeline { margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--color-light-blue); background: #f2f6ff; }
+.overview-pipeline { margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--color-light-blue); background: var(--color-surface-blue); }
 .overview-workflow { display: grid; gap: 1.5rem; margin-top: 1.5rem; padding-block: 1.5rem; border-block: 1px solid var(--color-light-blue); }
 .overview-workflow-step { min-width: 0; }
 .overview-workflow-step + .overview-workflow-step { padding-top: 1.5rem; border-top: 1px solid var(--color-light-blue); }
