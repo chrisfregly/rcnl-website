@@ -14,8 +14,14 @@ const particleOptions = {
   autoPlay: true,
   pauseOnOutsideViewport: false,
   interactivity: {
-    events: { onHover: { enable: true, mode: 'repulse' } },
-    modes: { repulse: { distance: 140, duration: 0.4 } },
+    events: {
+      onClick: { enable: true, mode: 'push' },
+      onHover: { enable: true, mode: 'repulse' },
+    },
+    modes: {
+      push: { quantity: 4 },
+      repulse: { distance: 140, duration: 0.4 },
+    },
   },
   particles: {
     color: { value: '#0f53ea' },
@@ -33,6 +39,7 @@ function setMotion(container, stopped) {
   if (!container) return;
   container.actualOptions.particles.move.enable = !stopped;
   container.actualOptions.interactivity.events.onHover.enable = !stopped;
+  container.actualOptions.interactivity.events.onClick.enable = !stopped;
   if (stopped) container.pause();
   else container.play();
 }
