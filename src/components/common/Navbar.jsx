@@ -1,70 +1,65 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Logo from '../../assets/rcnl-logo.svg?react';
-import { GiHamburgerMenu } from "react-icons/gi";
-import { MdClose } from "react-icons/md";
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdClose } from 'react-icons/md';
 import { Link, useLocation } from 'react-router-dom';
 import UnderlineEffect from './effects/UnderlineEffect';
 
-function Navbar() {
+const pages = ['Overview', 'Research', 'Publications', 'People', 'Resources', 'Contact'];
 
-  const location = useLocation();
-  const [openMobileNav, setOpenMobileNav] = useState(false)
+function Navbar() {
+  const { pathname } = useLocation();
+  const [open, setOpen] = useState(false);
+  const toggleRef = useRef(null);
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    const desktop = window.matchMedia('(min-width: 768px)');
+    const closeOnDesktop = () => setOpen(false);
+    desktop.addEventListener('change', closeOnDesktop);
+    return () => desktop.removeEventListener('change', closeOnDesktop);
+  }, []);
+
+  const links = pages.map(page => (
+    <Link key={page} to={`/${page.toLowerCase()}`} onClick={() => setOpen(false)}
+      aria-current={pathname === `/${page.toLowerCase()}` ? 'page' : undefined}
+      className="inline-flex min-h-11 items-center py-2">
+      <UnderlineEffect underline={pathname === `/${page.toLowerCase()}`}>{page}</UnderlineEffect>
+    </Link>
+  ));
 
   return (
     <>
-      <nav className='fixed z-50 flex flex-col items-center justify-center w-full px-8 py-4 bg-white border-b-2 border-slate-200'>
-        <div className='max-w-[72em] w-full flex items-center justify-between'>
-          <Link to={"/"}>
-            <Logo className="h-6 sm:h-7 md:h-8 fill-blue" />
+      <a href="#main-content" className="skip-link">Skip to content</a>
+      <nav ref={navRef} aria-label="Main navigation"
+        onKeyDown={event => {
+          if (event.key === 'Escape' && open) {
+            setOpen(false);
+            toggleRef.current?.focus();
+          }
+        }}
+        onBlur={event => {
+          if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
+        }}
+        className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white px-8 py-3">
+        <div className="mx-auto flex w-full max-w-[72em] items-center justify-between gap-4">
+          <Link to="/" aria-label="RCNL home" onClick={() => setOpen(false)}>
+            <Logo aria-hidden="true" className="h-6 sm:h-7 md:h-8 fill-blue" />
           </Link>
-          <div className='hidden gap-4 text-sm md:flex text-slate-900'>
-            <NavLink to={"Overview"} location={location.pathname} />
-            <NavLink to={"Research"} location={location.pathname} />
-            <NavLink to={"Publications"} location={location.pathname} />
-            <NavLink to={"People"} location={location.pathname} />
-            <NavLink to={"Resources"} location={location.pathname} />
-            <NavLink to={"Contact"} location={location.pathname} />
-          </div>
-          <div className='visible md:hidden' onClick={() => setOpenMobileNav(!openMobileNav)}>
-            {
-              openMobileNav ? 
-                <MdClose className='text-2xl sm:text-3xl fill-blue' /> :
-                <GiHamburgerMenu className='text-lg sm:text-xl fill-blue'/>
-            }
-          </div>
+          <div className="hidden gap-4 text-sm text-slate-900 md:flex">{links}</div>
+          <button ref={toggleRef} type="button" aria-label={open ? 'Close navigation' : 'Open navigation'}
+            aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}
+            className="flex h-11 w-11 shrink-0 items-center justify-center text-blue md:hidden">
+            {open ? <MdClose aria-hidden="true" className="text-2xl" /> : <GiHamburgerMenu aria-hidden="true" className="text-xl" />}
+          </button>
         </div>
-        {
-          openMobileNav ? 
-            <div className='flex flex-col items-center justify-center w-full h-screen'>
-              <div className='mt-[-8em] flex flex-col items-center gap-2'>
-                <NavLink to={"Overview"} location={location.pathname} />
-                <NavLink to={"Research"} location={location.pathname} />
-                <NavLink to={"Publications"} location={location.pathname} />
-                <NavLink to={"People"} location={location.pathname} />
-                <NavLink to={"Resources"} location={location.pathname} />
-                <NavLink to={"Contact"} location={location.pathname} />
-              </div>
-            </div> :
-            <></>
-        }
+        <div id="mobile-navigation" hidden={!open}
+          className="mx-auto max-h-[calc(100dvh-72px)] max-w-[72em] overflow-y-auto md:hidden">
+          <div className="flex flex-col py-4">{links}</div>
+        </div>
       </nav>
-
-      {/* ensures components after navbar do not get lost behind the navbar */}
-      <div className='flex flex-col items-center justify-center invisible w-full px-8 py-4'>
-        <Logo className="h-6 sm:h-7 md:h-8 fill-slate-900" />
-      </div>
     </>
-  )
+  );
 }
 
-function NavLink({ to, location }) {
-  return (
-    <Link to={`/${ to.toLowerCase() }`} className='select-none'>
-      <UnderlineEffect underline={location.includes(to.toLowerCase())}>
-        { to }
-      </UnderlineEffect>
-    </Link>
-  )
-}
-
-export default Navbar
+export default Navbar;

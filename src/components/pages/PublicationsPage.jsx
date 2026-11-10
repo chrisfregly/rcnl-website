@@ -1,50 +1,53 @@
-import { useEffect, useState } from "react";
+import SearchInput from '../common/SearchInput';
+import { useState } from "react";
 import Footer from "../common/Footer";
 import Navbar from "../common/Navbar";
 import UnderlineEffect from "../common/effects/UnderlineEffect";
-import ParticleEffect from "../common/effects/ParticleEffect";
 import publications from "../../data/publications.json"
-
-const effect = <ParticleEffect className="absolute top-0 h-screen -z-10" />;
 
 function PublicationsPage() {
 
   const [search, setSearch] = useState("");
 
-  const [pubs, setPubs] = useState(publications);
-  useEffect(() => {
-    setPubs(publications.filter(pub => 
-      pub.title.toLowerCase().includes(search.toLowerCase()) || 
-      pub.authors.map(author => author.name).join().toLowerCase().includes(search.toLowerCase()) ||
-      pub.journal.toLowerCase().includes(search.toLowerCase()) ||
-      pub.date.includes(search.toLowerCase())
-    ))
-  }, [search])
+  const query = search.trim().toLocaleLowerCase();
+  const pubs = publications.filter(pub =>
+    [pub.title, ...(pub.authors || []).map(author => author.name), pub.journal, pub.date].some(value => String(value ?? '').toLocaleLowerCase().includes(query))
+  );
 
   return (
-    <>
+    <div className="flex min-h-dvh flex-col">
       <Navbar />
 
-      { effect }
-
-      <div className="flex flex-col items-center w-full px-8 min-h-dvh text-slate-900">
+      <main id="main-content" tabIndex={-1} className="flex-1 flex flex-col items-center w-full px-8 text-slate-900">
         <div className="max-w-[72em] w-full flex flex-col">
           
           <div className="mt-12">
-            <div className="flex flex-col justify-between w-full sm:flex-row sm:items-end">
+            <div className="flex flex-col justify-between w-full md:flex-row md:items-start gap-6">
+              <div className="min-w-0">
               <h1 className="text-4xl font-bold">
-                <UnderlineEffect underline={true} height="h-5">Publications</UnderlineEffect>
+                <UnderlineEffect underline={true}>Publications</UnderlineEffect>
               </h1>
-              <div className="w-full py-1 mt-4 text-sm border-b-2 sm:mt-0 border-blue sm:max-w-72">
-                <input className="w-full focus:outline-none" placeholder="Search" type="text" value={search} onChange={e => setSearch(e.target.value)} />
-              </div>
-            </div>
-            <div className="flex flex-col mt-4 text-xs font-light">
+            <div className="flex flex-col mt-4 text-sm text-slate-600">
               <p>† corresponding author</p>
               <p>§ high school student supervised by Dr. Fregly</p>
               <p>* graduate student/post-doctoral fellow supervised by Dr. Fregly</p>
             </div>
-            <div className="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3">
+              </div>
+              <div className="w-full py-1 text-sm md:max-w-80 md:shrink-0">
+                <label htmlFor="publications-search" className="sr-only">Search publications</label>
+                <SearchInput id="publications-search" placeholder="Title, author, journal, or date" value={search} onChange={setSearch} />
+                <p role="status" aria-live="polite" aria-atomic="true" className="mt-2 text-right text-sm text-slate-600">{pubs.length} { pubs.length === 1 ? 'publication' : 'publications' } found</p>
+              </div>
+            </div>
+
+            {pubs.length === 0 && (
+              <div className="my-8">
+                <h2 className="text-xl font-bold">No publications found</h2>
+                <p className="mt-2">Try a different search term.</p>
+                {search && <button type="button" className="mt-4 min-h-11 px-4 py-2 bg-blue text-white" onClick={() => { setSearch(''); document.getElementById('publications-search')?.focus(); }}>Clear search</button>}
+              </div>
+            )}
+            <div className="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-3">
               {
                 pubs.map(publication => 
                   <Publication key={publication.title} title={publication.title} journal={publication.journal} volume={publication.volume} authors={publication.authors} date={publication.date} file={publication.file} />)
@@ -53,10 +56,10 @@ function PublicationsPage() {
           </div>
 
         </div>
-      </div>
+      </main>
 
       <Footer />
-    </>
+    </div>
   )
 }
 
@@ -66,19 +69,19 @@ function Publication({title, journal, volume, authors, date, file}) {
 
   return (
     <a href={"assets/publications/"+file} target="_blank" rel="noreferrer">
-      <div className="h-full p-4 duration-200 ease-in-out bg-white border-2 group border-blue grow-0 min-h-72 hover:bg-blue text-slate-900 hover:text-white">
-        <div className="relative top-0 flex flex-col justify-between h-full py-2 duration-200 ease-in-out group-hover:-top-3">
+      <div className="h-full p-4 quiet-card bg-white border border-slate-200 grow-0 min-h-72 text-slate-900">
+        <div className="flex flex-col justify-between gap-6 h-full py-2">
           <div>
-            <h1 className="text-lg font-bold">{title}</h1>
-            <p className="text-sm font-light">
+            <h2 className="text-lg font-bold">{title}</h2>
+            <p className="text-sm font-normal">
               {authors
                 .map(author => `${author.name}${author.tag === "postgraduate" ? "*" : ""}${author.tag === "highschool" ? "§" : ""}${author.tag === "corresponding_author" ? "†" : ""}`)
                 .join(", ")}
             </p>
           </div>
           <div>
-            <p className="text-sm font-bold text-blue group-hover:text-white">{journal} {volume ? `Volume ${volume}` : ""}</p>
-            <p className="text-sm font-light">Published {date}</p>
+            <p className="text-sm font-bold text-blue">{journal} {volume ? `Volume ${volume}` : ""}</p>
+            <p className="text-sm font-normal">Published {date}</p>
           </div>
         </div>
       </div>

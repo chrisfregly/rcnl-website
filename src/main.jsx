@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ParticleEffect from './components/common/effects/ParticleEffect.jsx';
 import './index.css'
 import HomePage from './components/pages/HomePage.jsx';
 import OverviewPage from './components/pages/OverviewPage.jsx';
@@ -43,6 +44,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <ParticleEffect />
     <RouterProvider router={router} />
   </StrictMode>,
 )
